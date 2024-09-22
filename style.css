@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    color:  whitesmoke;
+    background-color: darkblue;
+}
+
+header {
+    text-align: left;
+    padding: 10px;
+    background-color: mediumblue;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 14px;
+    color: aqua;
+}
+
+.main-navigation {
+    text-align: center;
+    background-color: darkblue;
+    padding: 10px 0;
+    word-spacing: 150px;
+    
+}
+
+.main-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main-navigation li {
+    display: inline;
+    margin: 15px;
+    font-size: 18px;
+    color: aqua;
+    
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+    background-color: lightblue;
+    padding: 10px;
+   
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    color: blue;
+    display: block;
+    background-color: lightskyblue;
+    height: 30px;
+    padding: 10px;
+
+}
+
+.vertical-menu {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.vertical-menu li {
+    margin: 10px ;
+    
+}
+
+.sidebar p {
+    color: black;
+}
+
+main {
+    float: left;
+    width: 75%;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+main section {
+    margin-bottom: 17px;
+}
+
+main h3 {
+    color: blue;
+    
+}
+
+main p {
+    color: black;
+}
+
+.horizontal-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.subscription {
+    width: 49%;
+    background-color: lightblue;
+    padding: 39px;
+}
+
+.other-services {
+    width: 49%;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.vertical-line {
+    width: 2px;
+    height: autopx;
+    margin: 20px;
+}
+
+button {
+    background-color: lightblue;
+    color: darkblue;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
+
+footer {
+     clear: both; 
+    text-align: center;
+    padding: 02px;
+    background-color: mediumblue;
+    color: lightblue;
+}
